@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "VESPASIAN",
+      "hasCanvas": true,
+      "bodyTextLen": 2563,
+      "bodyTextHash": "2cb1b6153d2c1b44c6400aeaeab1bd3e73ef9246cd409f7a44cd8ff1cb19fb87",
+      "bodyTextPrefix": "VESPASIAN SYSTEMS VIGIL ANALYSIS COMPANY CONCEPT STUDIES V E S P",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "VESPASIAN",
+      "hasCanvas": true,
+      "bodyTextLen": 2532,
+      "bodyTextHash": "3f1b30b4eadc95ea33f242bbc3e9d017cfa015eed8e0958a3049ac2cfd344fe7",
+      "bodyTextPrefix": "VESPASIAN CONCEPT STUDIES V E S P A S I A N FULMEN · PILUM · CON",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
